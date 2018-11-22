@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Rod.Today',
+    sitURL: 'https://rod.today',
+    description: 'Hey, I\'m Rod and this tiny slice of the internet. I\'m make things on the web. This is where I share my thoughts, projects, and other stuff.'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -25,8 +27,5 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
   ],
 }
