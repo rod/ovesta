@@ -1,14 +1,16 @@
 {
   "version": 2,
   "name": "today",
-  "alias": "rod.today",
   "builds": [
     {
       "src": "package.json",
       "use": "@now/static-build",
       "config": {
-        "distDir": "public"
+        "distDir": "dist"
       }
     }
+  ],
+  "alias": [
+    "rod.today"
   ]
 }
