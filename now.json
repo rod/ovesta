@@ -1,6 +1,7 @@
 {
-  "version": 2,
   "name": "sh",
+  "version": 2,
+  "alias": "rod.sh",
   "builds": [
     {
       "src": "package.json",
