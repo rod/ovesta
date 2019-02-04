@@ -23,10 +23,94 @@ export default {
 <style>
 @font-face{
   font-family: 'ArgentCF';
+  font-weight: 200;
+  font-style: normal;
+  src: url('~assets/fonts/ArgentCF-Thin.woff2'),
+       url('~assets/fonts/ArgentCF-Thin.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 200;
+  font-style: italic;
+  src: url('~assets/fonts/ArgentCF-ThinItalic.woff2'),
+       url('~assets/fonts/ArgentCF-ThinItalic.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 300;
+  font-style: normal;
+  src: url('~assets/fonts/ArgentCF-Light.woff2'),
+       url('~assets/fonts/ArgentCF-Light.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 300;
+  font-style: italic;
+  src: url('~assets/fonts/ArgentCF-LightItalic.woff2'),
+       url('~assets/fonts/ArgentCF-LightItalic.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
   font-weight: normal;
   font-style: normal;
   src: url('~assets/fonts/ArgentCF-Regular.woff2'),
        url('~assets/fonts/ArgentCF-Regular.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: normal;
+  font-style: italic;
+  src: url('~assets/fonts/ArgentCF-RegularItalic.woff2'),
+       url('~assets/fonts/ArgentCF-RegularItalic.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 600;
+  font-style: normal;
+  src: url('~assets/fonts/ArgentCF-DemiBold.woff2'),
+       url('~assets/fonts/ArgentCF-DemiBold.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 600;
+  font-style: italic;
+  src: url('~assets/fonts/ArgentCF-DemiBoldItalic.woff2'),
+       url('~assets/fonts/ArgentCF-DemiBoldItalic.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 700;
+  font-style: normal;
+  src: url('~assets/fonts/ArgentCF-Bold.woff2'),
+       url('~assets/fonts/ArgentCF-Bold.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 700;
+  font-style: italic;
+  src: url('~assets/fonts/ArgentCF-BoldItalic.woff2'),
+       url('~assets/fonts/ArgentCF-BoldItalic.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 800;
+  font-style: normal;
+  src: url('~assets/fonts/ArgentCF-ExtraBold.woff2'),
+       url('~assets/fonts/ArgentCF-ExtraBold.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 800;
+  font-style: italic;
+  src: url('~assets/fonts/ArgentCF-ExtraBoldItalic.woff2'),
+       url('~assets/fonts/ArgentCF-ExtraBoldItalic.woff')
+}
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 900;
+  font-style: normal;
+  src: url('~assets/fonts/ArgentCF-Super.woff2'),
+       url('~assets/fonts/ArgentCF-Super.woff')
 }
 
 :root {
@@ -47,14 +131,14 @@ export default {
 .monospace { font-family: 'Space Mono', monospace; }
 
 html {
-  font-size: 1rem;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
   background-color: #ffe7c7;
+  box-sizing: border-box;
   color: #000813;
+  font-size: 1rem;
 }
 
 *,
@@ -71,6 +155,8 @@ html {
 }
 
 .site-content {
+  align-items: center;
+  display: flex;
   flex: auto;
 }
 

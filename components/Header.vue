@@ -2,29 +2,28 @@
   <header>
     <div class="home">
       <nuxt-link to="/">rod</nuxt-link>
-      <!-- <span>&nbsp;is {{ status }}</span> -->
     </div>
 
     <ul class="social">
-      <li><a href="https://twitter.com/rrrrrrod" rel="nofollow">tw</a></li>
-      <li><a href="https://twitter.com/rod" rel="nofollow">gh</a></li>
-      <li><a href="https://twitter.com/rrrrrrod" rel="nofollow">db</a></li>
+      <li v-for="soc in socials" :key="soc.url">
+        <a :href="soc.url" rel="nofollow">{{soc.name}}</a>
+      </li>
     </ul>
   </header>
 </template>
 
 <script>
-import awful from 'awful'
 export default {
   data() {
     return {
       status: undefined,
+      socials: [
+        {name: 'tw', url: 'https://twitter.com/rrrrrrod'},
+        {name: 'gh', url: 'https://github.com/rod'},
+        {name: 'db', url: 'https://dribbble.com/rrrrrrod'},
+      ]
     }
   },
-
-  created() {
-    this.status = awful.random()
-  }
 }
 </script>
 
@@ -35,6 +34,7 @@ header {
   flex-direction: row;
   font-size: var(--font-size-2);
   padding: 1.125rem;
+  margin-bottom: 13%;
 }
 
 .home {
@@ -52,6 +52,10 @@ header {
 
 .social li {
   display: inline-block;
+}
+
+.social li:not(:last-child) {
+  margin-right: 0.72rem;
 }
 </style>
 
