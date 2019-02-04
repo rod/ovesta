@@ -11,17 +11,6 @@
   </div>
 </template>
 
-<script>
-import companies from './cv/positions'
-export default {
-  data() {
-    return {
-      companies,
-    }
-  }
-}
-</script>
-
 <style scoped>
 .intro {
   font-size: var(--font-size-6);

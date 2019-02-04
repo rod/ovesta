@@ -24,5 +24,9 @@
     "require-extension-hooks": "^0.3.3",
     "require-extension-hooks-babel": "^0.1.1",
     "require-extension-hooks-vue": "^2.0.0"
-  }
+  },
+  "resolutions": {
+    "terser": "3.14.1"
+  },
+  "now-build": "nuxt build --spa"
 }
