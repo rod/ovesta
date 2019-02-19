@@ -124,6 +124,11 @@ export default {
 }
 
 :root {
+  /* colors */
+  --yellow: hsl(50, 100%, 50%);
+  --black: hsl(215, 100%, 4%);
+
+  /* type */
   --font-size-11: 6.706rem;
   --font-size-10: 5.364rem;
   --font-size-9: 4.292rem;
@@ -135,20 +140,8 @@ export default {
   --font-size-3: 1.125rem;
   --font-size-2: 0.9rem;
   --font-size-1: 0.72rem;
-}
 
-.serif { font-family: 'ArgentCF', serif; }
-.monospace { font-family: 'Space Mono', monospace; }
 
-html {
-  -moz-osx-font-smoothing: grayscale;
-  -ms-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  background-color: #ffe7c7;
-  box-sizing: border-box;
-  color: #000813;
-  font-size: 1rem;
 }
 
 *,
@@ -157,6 +150,25 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  background-color: var(--yellow);
+  box-sizing: border-box;
+  color: var(--black);
+  font-size: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.serif { font-family: 'ArgentCF', serif; }
+.monospace { font-family: 'Space Mono', monospace; }
 
 .site-container {
   display: flex;
@@ -170,8 +182,9 @@ html {
   flex: auto;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.site-content a {
+  text-decoration: underline;
+  text-decoration-color: hsla(215, 100%, 4%, .33);
 }
+
 </style>
