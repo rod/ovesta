@@ -140,8 +140,6 @@ export default {
   --font-size-3: 1.125rem;
   --font-size-2: 0.9rem;
   --font-size-1: 0.72rem;
-
-
 }
 
 *,
@@ -180,6 +178,7 @@ a {
   align-items: center;
   display: flex;
   flex: auto;
+  max-width: 40rem;
 }
 
 .site-content a {

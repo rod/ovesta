@@ -35,7 +35,6 @@ header {
   flex-direction: row;
   font-size: var(--font-size-2);
   padding: 1.125rem;
-  margin-bottom: 13%;
 }
 
 .home {
