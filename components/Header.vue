@@ -1,7 +1,11 @@
 <template>
   <header>
     <div class="home">
-      <nuxt-link to="/">rod</nuxt-link>
+      <nuxt-link to="/">
+        <div class="logo">
+          <Logo />
+        </div>
+      </nuxt-link>
     </div>
 
     <ul class="social">
@@ -13,7 +17,13 @@
 </template>
 
 <script>
+import Logo from './Logo'
+
 export default {
+  components: {
+    Logo,
+  },
+
   data() {
     return {
       status: undefined,
@@ -39,6 +49,20 @@ header {
 
 .home {
   margin-right: 1.125rem;
+}
+
+.logo {
+  order: 2;
+  text-align: right;
+}
+
+.logo > svg {
+  display: inline-block;
+  transition: .33s ease-out;
+}
+
+.logo > svg:hover {
+  opacity: 1;
 }
 
 .social {

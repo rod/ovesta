@@ -1,30 +1,26 @@
 <template>
   <footer>
-    <div class="logo">
-      <Logo />
-    </div>
-
     <div class="copy">
-      <p>Good artists copy;</p>
-    </div>
-
-    <div class="steal">
-      <p>Great artists steal.</p>
+      <p>Good artists &copy; {{year}}</p>
     </div>
   </footer>
 </template>
 
 <script>
-import Logo from './Logo'
 export default {
-  components:{
-    Logo,
-  },
-
   data() {
     return{
       year: new Date().getFullYear(),
     }
+  },
+
+  created() {
+    (function(e,t,o,n,p,r,i){e.prismGlobalObjectAlias=n;e.pgo=e.pgo||function(){(e.pgo.q=e.pgo.q||[]).push(arguments)};e.pgo.l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://prism.app-us1.com/prism.js","pgo");
+
+    pgo('setAccount', '89472534');
+    pgo('setTrackByDefault', true);
+
+    pgo('process');
   }
 }
 </script>
@@ -41,34 +37,10 @@ footer {
   width: 100%;
 }
 
-.logo {
-  order: 2;
-  text-align: right;
-}
-
-.logo > svg {
-  display: inline-block;
-  transition: .33s ease-out;
-}
-
-.logo > svg:hover {
-  opacity: 1;
-}
-
-.copy,
-.steal {
-  flex: 1;
-}
-
 .copy {
-  order: 1;
+  flex: 1;
   margin-right: 1.125rem;
-}
-
-.steal {
-  order: 3;
-  margin-left: 1.125rem;
-  text-align: right
+  order: 1;
 }
 </style>
 
