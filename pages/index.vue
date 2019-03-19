@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .intro {
   font-size: var(--font-size-6);
   font-weight: 700;
