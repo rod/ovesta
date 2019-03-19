@@ -4,8 +4,12 @@
       <Logo />
     </div>
 
-    <div class="copyright">
-      <p>Good artists copy; Great artists steal.</p>
+    <div class="copy">
+      <p>Good artists copy;</p>
+    </div>
+
+    <div class="steal">
+      <p>Great artists steal.</p>
     </div>
   </footer>
 </template>
@@ -33,12 +37,8 @@ footer {
   font-family: 'Space Mono', monospace;
   font-size: var(--font-size-1);
   padding: 1.125rem;
+  text-transform: lowercase;
   width: 100%;
-}
-
-.copyright {
-  flex: 1;
-  margin-right: 1.125rem;
 }
 
 .logo {
@@ -48,7 +48,6 @@ footer {
 
 .logo > svg {
   display: inline-block;
-  opacity: 0.66;
   transition: .33s ease-out;
 }
 
@@ -56,9 +55,20 @@ footer {
   opacity: 1;
 }
 
-.copyright {
+.copy,
+.steal {
+  flex: 1;
+}
+
+.copy {
   order: 1;
-  text-transform: lowercase;
+  margin-right: 1.125rem;
+}
+
+.steal {
+  order: 3;
+  margin-left: 1.125rem;
+  text-align: right
 }
 </style>
 

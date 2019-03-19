@@ -21,6 +21,7 @@ export default {
         {name: 'tw', url: 'https://twitter.com/rrrrrrod'},
         {name: 'gh', url: 'https://github.com/rod'},
         {name: 'db', url: 'https://dribbble.com/rrrrrrod'},
+        {name: 'in', url: 'https://linkedin.com/in/rodneydennis'},
       ]
     }
   },
@@ -34,7 +35,6 @@ header {
   flex-direction: row;
   font-size: var(--font-size-2);
   padding: 1.125rem;
-  margin-bottom: 13%;
 }
 
 .home {

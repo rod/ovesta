@@ -18,22 +18,4 @@
   padding: 1.125rem;
   text-transform: lowercase;
 }
-
-@media screen and (min-width: 500px) {
-  .intro {
-    font-size: var(--font-size-8);
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .intro {
-    font-size: var(--font-size-9);
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .intro {
-    font-size: var(--font-size-11);
-  }
-}
 </style>
