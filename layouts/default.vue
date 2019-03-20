@@ -115,7 +115,7 @@ export default {
 
 :root {
   /* colors */
-  --yellow: hsl(50, 100%, 50%);
+  --yellow: hsl(42, 96%, 55%);
   --black: hsl(215, 100%, 4%);
 
   /* type */
