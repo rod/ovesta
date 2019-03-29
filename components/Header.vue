@@ -30,6 +30,7 @@ export default {
       socials: [
         {name: 'tw', url: 'https://twitter.com/rrrrrrod'},
         {name: 'gh', url: 'https://github.com/rod'},
+        {name: 'gl', url: 'https://gitlab.com/r22r'},
         {name: 'db', url: 'https://dribbble.com/rrrrrrod'},
         {name: 'in', url: 'https://linkedin.com/in/rodneydennis'},
       ]
