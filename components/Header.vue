@@ -8,7 +8,7 @@
       </nuxt-link>
     </div>
 
-    <ul class="social">
+    <ul class="social sans">
       <li v-for="soc in socials" :key="soc.url">
         <a :href="soc.url" rel="nofollow">{{soc.name}}</a>
       </li>
@@ -68,7 +68,6 @@ header {
 
 .social {
   flex: 1;
-  font-family: 'Space Mono', monospace;
   list-style: none;
   padding: 0;
   text-align: right;

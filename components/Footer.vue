@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="sans">
     <div class="copy">
       <p>Good artists &copy; {{year}}</p>
     </div>
@@ -31,7 +31,6 @@ footer {
   align-items: flex-end;
   display: flex;
   flex-direction: row;
-  font-family: 'Space Mono', monospace;
   font-size: var(--font-size-1);
   padding: 1.125rem;
   text-transform: lowercase;

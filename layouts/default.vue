@@ -112,6 +112,90 @@ export default {
   src: url('~assets/fonts/ArgentCF-Super.woff2'),
        url('~assets/fonts/ArgentCF-Super.woff')
 }
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 200;
+  font-style: normal;
+  src: url('~assets/fonts/CartographSansCF-Thin.woff2'),
+       url('~assets/fonts/CartographSansCF-Thin.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 200;
+  font-style: italic;
+  src: url('~assets/fonts/CartographSansCF-ThinItalic.woff2'),
+       url('~assets/fonts/CartographSansCF-ThinItalic.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 300;
+  font-style: normal;
+  src: url('~assets/fonts/CartographSansCF-Light.woff2'),
+       url('~assets/fonts/CartographSansCF-Light.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 300;
+  font-style: italic;
+  src: url('~assets/fonts/CartographSansCF-LightItalic.woff2'),
+       url('~assets/fonts/CartographSansCF-LightItalic.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: normal;
+  font-style: normal;
+  src: url('~assets/fonts/CartographSansCF-Regular.woff2'),
+       url('~assets/fonts/CartographSansCF-Regular.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: normal;
+  font-style: italic;
+  src: url('~assets/fonts/CartographSansCF-RegularItalic.woff2'),
+       url('~assets/fonts/CartographSansCF-RegularItalic.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 600;
+  font-style: normal;
+  src: url('~assets/fonts/CartographSansCF-DemiBold.woff2'),
+       url('~assets/fonts/CartographSansCF-DemiBold.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 600;
+  font-style: italic;
+  src: url('~assets/fonts/CartographSansCF-DemiBoldItalic.woff2'),
+       url('~assets/fonts/CartographSansCF-DemiBoldItalic.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 700;
+  font-style: normal;
+  src: url('~assets/fonts/CartographSansCF-Bold.woff2'),
+       url('~assets/fonts/CartographSansCF-Bold.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 700;
+  font-style: italic;
+  src: url('~assets/fonts/CartographSansCF-BoldItalic.woff2'),
+       url('~assets/fonts/CartographSansCF-BoldItalic.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 800;
+  font-style: normal;
+  src: url('~assets/fonts/CartographSansCF-ExtraBold.woff2'),
+       url('~assets/fonts/CartographSansCF-ExtraBold.woff')
+}
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 800;
+  font-style: italic;
+  src: url('~assets/fonts/CartographSansCF-ExtraBoldItalic.woff2'),
+       url('~assets/fonts/CartographSansCF-ExtraBoldItalic.woff')
+}
 
 :root {
   /* colors */
@@ -156,7 +240,7 @@ a {
 }
 
 .serif { font-family: 'ArgentCF', serif; }
-.monospace { font-family: 'Space Mono', monospace; }
+.sans { font-family: 'CartographSansCF', sans-serif; }
 
 .site-container {
   display: flex;

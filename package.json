@@ -10,7 +10,7 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "ava",
-    "now-build": "nuxt build --spa"
+    "now-build": "nuxt generate"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
