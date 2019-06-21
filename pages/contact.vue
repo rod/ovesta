@@ -16,7 +16,14 @@
   </main>
 </template>
 
-<style>
+<script>
+export default {
+  layout: 'default'
+}
+</script>
+
+
+<style scoped>
 .intro {
   font-size: var(--font-size-6);
   font-weight: 700;

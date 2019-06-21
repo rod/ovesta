@@ -11,6 +11,12 @@
   </div>
 </template>
 
+<script>
+export default {
+  layout: 'default'
+}
+</script>
+
 <style>
 .intro {
   font-size: var(--font-size-6);

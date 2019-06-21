@@ -20,7 +20,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 @font-face{
   font-family: 'ArgentCF';
   font-weight: 200;

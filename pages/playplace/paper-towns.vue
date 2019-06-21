@@ -91,6 +91,10 @@ h1 {
   font-weight: normal;
 }
 
+p {
+  margin: 1em 0;
+}
+
 textarea {
   border: 0;
   font-family: 'Shadows Into Light', cursive;
