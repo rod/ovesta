@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 footer {
   align-items: flex-end;
   display: flex;
