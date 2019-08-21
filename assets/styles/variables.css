@@ -1,0 +1,37 @@
+:root {
+  /* colors */
+  --red: #c0392b;
+
+  /* neutrals */
+  --black: #000813;
+  --white: #ffffff;
+
+  /* spacing */
+  --space-11: 6.706rem;
+  --space-10: 5.364rem;
+  --space-9: 4.292rem;
+  --space-8: 3.433rem;
+  --space-7: 2.747rem;
+  --space-6: 2.197rem;
+  --space-5: 1.758rem;
+  --space-4: 1.406rem;
+  --space-3: 1.125rem;
+  --space-2: 0.9rem;
+  --space-1: 0.72rem;
+
+  /* type */
+  --font-size-11: 6.706rem;
+  --font-size-10: 5.364rem;
+  --font-size-9: 4.292rem;
+  --font-size-8: 3.433rem;
+  --font-size-7: 2.747rem;
+  --font-size-6: 2.197rem;
+  --font-size-5: 1.758rem;
+  --font-size-4: 1.406rem;
+  --font-size-3: 1.125rem;
+  --font-size-2: 0.9rem;
+  --font-size-1: 0.72rem;
+
+  --serif: 'ArgentCF', serif;
+  --sans: 'CartographSansCF', sans-serif;
+}

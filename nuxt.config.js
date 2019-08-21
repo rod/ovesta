@@ -10,6 +10,9 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
   },
+  css: [
+    '@/assets/styles/main.css',
+  ],
   loading: { color: '#000' },
   build: {
     extend(config, ctx) {

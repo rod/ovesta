@@ -1,0 +1,42 @@
+@import './fonts.css';
+@import './variables.css';
+
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  background-color: var(--red);
+  box-sizing: border-box;
+  color: var(--black);
+  font-size: var(--font-size-3);
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.serif { font-family: 'ArgentCF', serif; }
+.sans { font-family: 'CartographSansCF', sans-serif; }
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-content {
+  align-items: center;
+  display: flex;
+  flex: auto;
+  max-width: 40rem;
+}
