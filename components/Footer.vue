@@ -49,14 +49,14 @@ footer {
   font-size: var(--font-size-1);
   list-style: none;
   margin: 0;
-  padding: var(--space-1) 0 0 0;
+  padding: var(--space-1) 0;
 }
 
 .social li {
   display: inline-block;
   flex: 1 1 50%;
   text-align: center;
-  margin: 0 0 var(--space-1) 0;
+  padding: var(--space-1) 0;
 }
 
 .social li:not(:nth-child(even)):not(:last-child) {

@@ -6,6 +6,8 @@
 
 <style scoped>
 header {
+  border-bottom: 1px solid var(--black);
+  margin: 0 var(--space-1);
   text-align: center;
 }
 
