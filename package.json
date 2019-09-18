@@ -1,16 +1,13 @@
 {
-  "name": "sh",
+  "name": "www",
   "version": "1.0.0",
   "description": "My website",
   "author": "Rodney Dennis",
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "test": "ava",
-    "now-build": "nuxt generate"
+    "build": "nuxt generate",
+    "start": "nuxt start"
   },
   "dependencies": {
     "cross-env": "^5.2.0",

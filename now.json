@@ -1,8 +1,7 @@
 {
   "version": 2,
   "public": false,
-  "name": "sh",
-  "alias": "rod.sh",
+  "name": "www",
   "builds": [
     {
       "src": "package.json",
