@@ -2,7 +2,7 @@
   "name": "www",
   "version": "1.0.0",
   "description": "My website",
-  "author": "Rodney Dennis",
+  "author": "Rod Dennis",
   "private": true,
   "scripts": {
     "dev": "nuxt",
