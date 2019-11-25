@@ -1,0 +1,199 @@
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 200;
+  font-style: normal;
+  src: url('/fonts/ArgentCF-Thin.woff2'),
+       url('/fonts/ArgentCF-Thin.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 200;
+  font-style: italic;
+  src: url('/fonts/ArgentCF-ThinItalic.woff2'),
+       url('/fonts/ArgentCF-ThinItalic.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/ArgentCF-Light.woff2'),
+       url('/fonts/ArgentCF-Light.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 300;
+  font-style: italic;
+  src: url('/fonts/ArgentCF-LightItalic.woff2'),
+       url('/fonts/ArgentCF-LightItalic.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/ArgentCF-Regular.woff2'),
+       url('/fonts/ArgentCF-Regular.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: normal;
+  font-style: italic;
+  src: url('/fonts/ArgentCF-RegularItalic.woff2'),
+       url('/fonts/ArgentCF-RegularItalic.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 600;
+  font-style: normal;
+  src: url('/fonts/ArgentCF-DemiBold.woff2'),
+       url('/fonts/ArgentCF-DemiBold.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 600;
+  font-style: italic;
+  src: url('/fonts/ArgentCF-DemiBoldItalic.woff2'),
+       url('/fonts/ArgentCF-DemiBoldItalic.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/ArgentCF-Bold.woff2'),
+       url('/fonts/ArgentCF-Bold.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 700;
+  font-style: italic;
+  src: url('/fonts/ArgentCF-BoldItalic.woff2'),
+       url('/fonts/ArgentCF-BoldItalic.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 800;
+  font-style: normal;
+  src: url('/fonts/ArgentCF-ExtraBold.woff2'),
+       url('/fonts/ArgentCF-ExtraBold.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 800;
+  font-style: italic;
+  src: url('/fonts/ArgentCF-ExtraBoldItalic.woff2'),
+       url('/fonts/ArgentCF-ExtraBoldItalic.woff')
+}
+
+@font-face{
+  font-family: 'ArgentCF';
+  font-weight: 900;
+  font-style: normal;
+  src: url('/fonts/ArgentCF-Super.woff2'),
+       url('/fonts/ArgentCF-Super.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 200;
+  font-style: normal;
+  src: url('/fonts/CartographSansCF-Thin.woff2'),
+       url('/fonts/CartographSansCF-Thin.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 200;
+  font-style: italic;
+  src: url('/fonts/CartographSansCF-ThinItalic.woff2'),
+       url('/fonts/CartographSansCF-ThinItalic.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/CartographSansCF-Light.woff2'),
+       url('/fonts/CartographSansCF-Light.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 300;
+  font-style: italic;
+  src: url('/fonts/CartographSansCF-LightItalic.woff2'),
+       url('/fonts/CartographSansCF-LightItalic.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: normal;
+  font-style: normal;
+  src: url('/fonts/CartographSansCF-Regular.woff2'),
+       url('/fonts/CartographSansCF-Regular.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: normal;
+  font-style: italic;
+  src: url('/fonts/CartographSansCF-RegularItalic.woff2'),
+       url('/fonts/CartographSansCF-RegularItalic.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 600;
+  font-style: normal;
+  src: url('/fonts/CartographSansCF-DemiBold.woff2'),
+       url('/fonts/CartographSansCF-DemiBold.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 600;
+  font-style: italic;
+  src: url('/fonts/CartographSansCF-DemiBoldItalic.woff2'),
+       url('/fonts/CartographSansCF-DemiBoldItalic.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/CartographSansCF-Bold.woff2'),
+       url('/fonts/CartographSansCF-Bold.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 700;
+  font-style: italic;
+  src: url('/fonts/CartographSansCF-BoldItalic.woff2'),
+       url('/fonts/CartographSansCF-BoldItalic.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 800;
+  font-style: normal;
+  src: url('/fonts/CartographSansCF-ExtraBold.woff2'),
+       url('/fonts/CartographSansCF-ExtraBold.woff')
+}
+
+@font-face{
+  font-family: 'CartographSansCF';
+  font-weight: 800;
+  font-style: italic;
+  src: url('/fonts/CartographSansCF-ExtraBoldItalic.woff2'),
+       url('/fonts/CartographSansCF-ExtraBoldItalic.woff')
+}

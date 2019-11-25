@@ -1,22 +1,29 @@
 # www
 
-My website
+My site; rod.sh
 
-## Build Setup
+## Building and running on localhost
 
-``` bash
-# install dependencies
-$ npm install
+First install dependencies:
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
+```sh
+npm install
 ```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+To run in hot module reloading mode:
+
+```sh
+npm start
+```
+
+To create a production build:
+
+```sh
+npm run build-prod
+```
+
+## Running
+
+```sh
+node dist/bundle.js
+```
