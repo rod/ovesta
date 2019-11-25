@@ -1,2 +1,9 @@
+import Vue from "vue"
 import "./styles/main.css";
-console.log("hello world!");
+
+new Vue({
+  el: "#app",
+  data: {
+    name: 'rod dennis'
+  }
+});
