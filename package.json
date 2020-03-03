@@ -1,9 +1,6 @@
 {
   "name": "www",
   "version": "1.0.0",
-  "description": "My website",
-  "author": "Rod Dennis",
-  "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt generate",
@@ -11,19 +8,6 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "cross-env": "^5.2.0",
-    "moment": "^2.24.0",
     "nuxt": "^2.3.4"
-  },
-  "devDependencies": {
-    "@vue/test-utils": "^1.0.0-beta.27",
-    "ava": "^1.0.1",
-    "browser-env": "^3.2.5",
-    "node-sass": "^4.12.0",
-    "nodemon": "^1.18.9",
-    "require-extension-hooks": "^0.3.3",
-    "require-extension-hooks-babel": "^0.1.1",
-    "require-extension-hooks-vue": "^2.0.0",
-    "sass-loader": "^7.1.0"
   }
 }
