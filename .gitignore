@@ -1,6 +1,2 @@
-.cache
-.now
-
-dist
+.nuxt
 node_modules
-
