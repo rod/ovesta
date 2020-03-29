@@ -1,13 +1,17 @@
 {
   "name": "www",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Rodney Dennis <rodneydennisjr@gmail.com>",
+  "license": "MIT",
+  "repository": "git@github.com:rod/www.git",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt generate",
-    "start": "nuxt start"
+    "clean": "rm -rf dist",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
-  "dependencies": {
-    "axios": "^0.19.2",
-    "nuxt": "^2.11.0"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
