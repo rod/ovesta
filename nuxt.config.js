@@ -26,7 +26,7 @@ export default {
         content:
           "I'm Rod. My constant goal is to build products that bring value and joy to people. Currently, I'm a Frontend Engineering Manager at ActiveCampaign leading teams that build websites and design systems. ",
       },
-      { hid: "og:image", property: "og:image", content: "" },
+      { hid: "og:image", property: "og:image", content: "/meta.png" },
       {
         hid: "twitter:card",
         property: "twitter:card",
@@ -48,7 +48,7 @@ export default {
         content:
           "I'm Rod. My constant goal is to build products that bring value and joy to people. Currently, I'm a Frontend Engineering Manager at ActiveCampaign leading teams that build websites and design systems. ",
       },
-      { hid: "twitter:image", property: "twitter:image", content: "" },
+      { hid: "twitter:image", property: "twitter:image", content: "/meta.png" },
     ],
   },
 };
