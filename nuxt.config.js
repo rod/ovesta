@@ -1,4 +1,8 @@
 export default {
+  env: {
+    baseUrl: process.env.BASE_URL || "http://localhost:3000",
+  },
+
   head: {
     title: "Rod Dennis - Between Design & Engineering",
     htmlAttrs: {
@@ -26,7 +30,11 @@ export default {
         content:
           "I'm Rod. My constant goal is to build products that bring value and joy to people. Currently, I'm a Frontend Engineering Manager at ActiveCampaign leading teams that build websites and design systems. ",
       },
-      { hid: "og:image", property: "og:image", content: "/meta.png" },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: "https://rod.sh/meta.png",
+      },
       {
         hid: "twitter:card",
         property: "twitter:card",
@@ -48,7 +56,11 @@ export default {
         content:
           "I'm Rod. My constant goal is to build products that bring value and joy to people. Currently, I'm a Frontend Engineering Manager at ActiveCampaign leading teams that build websites and design systems. ",
       },
-      { hid: "twitter:image", property: "twitter:image", content: "/meta.png" },
+      {
+        hid: "twitter:image",
+        property: "twitter:image",
+        content: "https://rod.sh/meta.png",
+      },
     ],
   },
 };
