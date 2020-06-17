@@ -5,7 +5,9 @@
       <p>
         I’m working on a few updates to my site as you may be able to tell.
         Until I get things situated here, you can find me on
-        <a href="https://twitter.com/rrrrrrod">twitter</a> for fun, or
+        <a
+          href="https://twitter.com/rrrrrrod"
+        >twitter</a> for fun, or
         <a href="https://www.linkedin.com/in/rodneydennis">linkedin</a> for
         serious.
       </p>
