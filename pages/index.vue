@@ -95,4 +95,11 @@ a:hover::after {
   transition: top 0.2s cubic-bezier(0.4, 0, 0.2, 1),
     height 0.1s 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: red;
+    color: white;
+  }
+}
 </style>

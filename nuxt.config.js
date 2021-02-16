@@ -1,6 +1,7 @@
 export default {
   env: {
     baseUrl: process.env.BASE_URL || "http://localhost:3000",
+    sentryDsn: process.env.SENTRY_DSN || false,
   },
 
   head: {
@@ -15,7 +16,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "I'm Rod. My constant goal is to build products that bring value and joy to people. Currently, I'm a Frontend Engineering Manager at ActiveCampaign leading teams that build websites and design systems. ",
+          "",
       },
       { hid: "og:type", property: "og:type", content: "website" },
       { hid: "og:url", property: "og:url", content: "https://rod.sh/" },
@@ -62,5 +63,14 @@ export default {
         content: "https://rod.sh/meta.png",
       },
     ],
+    script: [
+      {
+        acync: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-GLKNN0JW20',
+      },
+      {
+        innerHMTL: "window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-GLKNN0JW20');"
+      }
+    ]
   },
 };
