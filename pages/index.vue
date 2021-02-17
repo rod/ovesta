@@ -3,7 +3,7 @@
     <section>
       <h1>Hey! I'm Rod.</h1>
       <p>
-        I’m working on a few updates to my site as you may be able to tell.
+        This website is a work-in-progress as you may be able to tell.
         Until I get things situated here, you can find me on
         <a
           href="https://twitter.com/rrrrrrod"
@@ -23,7 +23,13 @@
   src: url("~assets/fonts/ArgentCF-Bold.woff2") format("woff2"),
     url("~assets/fonts/ArgentCF-Bold.woff") format("woff");
 }
-
+@font-face {
+  font-family: "Argent";
+  font-weight: bold;
+  font-style: italic;
+  src: url("~assets/fonts/ArgentCF-BoldItalic.woff2") format("woff2"),
+    url("~assets/fonts/ArgentCF-BoldItalic.woff") format("woff");
+}
 @font-face {
   font-family: "Cartograph";
   src: url("~assets/fonts/CartographSansCF-Regular.woff2") format("woff2"),
@@ -38,6 +44,27 @@ body {
   height: 100%;
 }
 
+body {
+  background: #f7f5dd;
+  color: #000813;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #000813;
+    color: #f7f5dd;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: #f7f5dd;
+    color: #000813;
+  }
+}
+
 main {
   overflow-x: hidden;
   display: flex;
@@ -46,7 +73,7 @@ main {
 }
 
 section {
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 12vw;
   max-width: 30rem;
 }
 
@@ -57,6 +84,7 @@ h1 {
   letter-spacing: -0.25rem;
   line-height: 1;
   margin-bottom: 1.5rem;
+  font-style: italic;
 }
 
 p {
@@ -94,12 +122,5 @@ a:hover::after {
   height: 100%;
   transition: top 0.2s cubic-bezier(0.4, 0, 0.2, 1),
     height 0.1s 0.15s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background: red;
-    color: white;
-  }
 }
 </style>

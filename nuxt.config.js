@@ -1,11 +1,14 @@
+const metaTitle = 'Rod Dennis — Design loving developer based in Chicago'
+const metaDescription = 'The personal website of Rod Dennis, a developer based in Chicago. Cares about user interfaces and experiences, design systems, and such and so on. '
+const metaWebsite = 'https://rod.sh/'
+const metaImage = 'https://rod.sh/meta.png'
+
 export default {
   env: {
     baseUrl: process.env.BASE_URL || "http://localhost:3000",
-    sentryDsn: process.env.SENTRY_DSN || false,
   },
-
   head: {
-    title: "Rod Dennis - Between Design & Engineering",
+    title: metaTitle,
     htmlAttrs: {
       lang: "en",
     },
@@ -13,29 +16,35 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
+        hid: 'title',
+        name: 'title',
+        content: metaTitle
+      },
+      {
         hid: "description",
         name: "description",
-        content:
-          "",
+        content: metaDescription,
       },
+      // Open graph / Facebook
       { hid: "og:type", property: "og:type", content: "website" },
-      { hid: "og:url", property: "og:url", content: "https://rod.sh/" },
+      { hid: "og:url", property: "og:url", content: metaWebsite },
       {
         hid: "og:title",
         property: "og:title",
-        content: "Rod Dennis - Between Design & Engineering",
+        content: metaTitle,
       },
       {
         hid: "og:description",
         property: "og:description",
-        content:
-          "I'm Rod. My constant goal is to build products that bring value and joy to people. Currently, I'm a Frontend Engineering Manager at ActiveCampaign leading teams that build websites and design systems. ",
+        content: metaDescription,
       },
       {
         hid: "og:image",
         property: "og:image",
-        content: "https://rod.sh/meta.png",
+        content: metaImage,
       },
+
+      // Twitter
       {
         hid: "twitter:card",
         property: "twitter:card",
@@ -44,23 +53,22 @@ export default {
       {
         hid: "twitter:url",
         property: "twitter:url",
-        content: "https://rod.sh/",
+        content: metaWebsite,
       },
       {
         hid: "twitter:title",
         property: "twitter:title",
-        content: "Rod Dennis - Between Design & Engineering",
+        content: metaTitle,
       },
       {
         hid: "twitter:description",
         property: "twitter:description",
-        content:
-          "I'm Rod. My constant goal is to build products that bring value and joy to people. Currently, I'm a Frontend Engineering Manager at ActiveCampaign leading teams that build websites and design systems. ",
+        content: metaDescription,
       },
       {
         hid: "twitter:image",
         property: "twitter:image",
-        content: "https://rod.sh/meta.png",
+        content: metaImage,
       },
     ],
     script: [
