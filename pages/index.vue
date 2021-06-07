@@ -6,7 +6,7 @@
         This website is a work-in-progress as you may be able to tell.
         Until I get things situated here, you can find me on
         <a
-          href="https://twitter.com/rrrrrrod"
+          href="https://twitter.com/firstnamerod"
         >twitter</a> for fun, or
         <a href="https://www.linkedin.com/in/rodneydennis">linkedin</a> for
         serious.
